@@ -98,7 +98,7 @@ clearBtn.addEventListener("click", function() {
   currentScreen.textContent = "";
 });
 
-// event listener for delete button
+// event listener for delete button.
 deleteBtn.addEventListener("click", function() {
   currentScreen.textContent = currentScreen.textContent.slice(0, currentScreen.textContent.length - 1);
 })
